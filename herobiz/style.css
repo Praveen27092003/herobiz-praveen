@@ -25,6 +25,14 @@
     font-size: 36px;
     color: #21afaf;
 }
+.headertop-i{
+    font-size: 20px;
+    position: absolute;
+    left: 444px;
+    top: 33px;
+    color: darkcyan;
+    display: none;
+}
 .headertop ul{
     font-family: math;
     font-size: 19px;
@@ -69,11 +77,13 @@
     cursor: pointer;
     margin-top: 19px;
     color: white;
+    
 
 }
 .headertop button:hover{
     background-color:#1c7281 ;
 }
+
 
 .banner img{
        background-repeat: no-repeat;
@@ -85,7 +95,9 @@
     border-radius: 18px;
     box-shadow: 4px 7px 7px 0px #00000042;
     transition: 400ms;
+  
 }
+
 .banner img:hover{
     filter: grayscale(1);
     transform: scale(1.03);
@@ -704,4 +716,192 @@ background: #9abee2;
     font-family: math;
     font-size: 20;
 }
+@media  screen and (min-width: 320px) and (max-width: 480px)  {
+    .headertop h1{
+        font-size: 50px;
+    }
+     .headertop-i{
+        display: block;
+        position: absolute;
+        left: 930px;
+        font-size: 42px;
+        top: 17px;
+    }
+    .headertop li{
+        display: none;
+    }
+    .headertop button{
+        margin-left: 470px;
+        margin-top: 8px;
+        height: 60px;
+        width: 231px;
+        font-size: 36px;
+    }
+    .banner img{
+        width: 700px;
+    position: relative;
+    left: -100px;
+    }
+    .banner-content{
+        display: inline-block;
+        width: 405px;
+    }
+    .banner-content h1{
+        position: relative;
+       right: 175px;
+    }
+    .banner-content p{
+        position: relative;
+        top: 25px;
+        font-size: 40px;
+    }
+    .banner-content a{
+        position: relative;
+        right: 200px;
+        top: 50px;
+        display: inline-block;
+        width: 195px;
+        height: 51px;
+        font-size: 39px;
+    }
+    .banner-content i{
+        font-size: 40px;
+        position: relative;
+        left: -160px;
+        top: 50px;
+    }
+    .banner-content span{
+        font-size: 39px;
+        position: relative;
+        left: 118px;
+        display: inline-block;
+        top: 2;
+    }
+    .services{
+        display: block;
+    }
+    .services-features{
+        display: inline-block;
+        width: 450px;
+        height: 350px;
+        padding: 77px;
+        position: relative;
+        left: 105px;
+    }
+    .services-features i{
+        font-size: 90px;
+    }
+    .services-features h4{
+        font-size: 50px;
+    }
+    .services-features-content{
+        font-size: 40px;
+    }
+    #features h1{
+        display: inline-block;
+        position: relative;
+        left: -100px;
+    }
+    .features-para{
+        display: block;
+        width: 985px;
+        font-size: 33px;
+        position: relative;
+        left: -484px;
+    }
+    .features{
+        display: block;
+    }
+    .features-img{
+        margin-left: 650px;
+    width: 600px;
+    height: 400;
+    }
+    .features-items-details{
+        position: relative;
+        left: 307px;
+       
+    }
+    .features-items-details i{
+        position: relative;
+        bottom: 25px;
+    }
+    .features-h{
+        font-size: 30px;
+    }
+    .features-p{
+        font-size: 20px;
+    }
+    .team-title{
+         display: inline-block;
+    }
+    .team-title h1{ 
+        position: relative;
+        left: -100px;
+    }
+    .team-title p{
+        display: block;
+        width: 753px;
+    }
+    .team{
+         display: block;
+    }
+    .team-items-div img{
+        margin-left: 700px;
+        height: 521px;
+        width: 550px;
+    }
+    .team-items-details{
+        position: relative;
+        width: 457px;
+        height: 120px;
+        left: 280px;
+    }
+    .team-h4{
+     font-size: 40px;
+    }
+    .team-items-details span{
+       font-size: 25px;
+    }
+    .contact-title{
+
+    }
+    .contact-title h1{
+        position: relative;
+    right: 40px;
+    }
+    .contact-container{
+     display: block;
+    }
+    .contact{
+    position: relative;
+    left: 46px;
+    width: 798px;
+    }
+    .contact-ours{
+
+    }
+    .contact-yours{
+        display: inline-block;
+        position: relative;
+        left: 116px;
+    }
+    .details{
+        display: block;
+        width: 964px;
+        height: 913px;
+    }
+   
+    .copyright{
+        display: block;
+        width: 864px;
+        height: 130px;
+    }
+  
+}
+
+
+
+
+
 
