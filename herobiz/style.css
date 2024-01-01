@@ -716,31 +716,36 @@ background: #9abee2;
     font-family: math;
     font-size: 20;
 }
-@media  screen and (min-width: 320px) and (max-width: 480px)  {
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px)  {
     .headertop h1{
-        font-size: 50px;
+        font-size: 30px;
     }
      .headertop-i{
         display: block;
         position: absolute;
-        left: 930px;
-        font-size: 42px;
+        left: 800px;
+        font-size: 30px;
         top: 17px;
     }
     .headertop li{
         display: none;
     }
     .headertop button{
-        margin-left: 470px;
+        margin-left: 420px;
         margin-top: 8px;
-        height: 60px;
-        width: 231px;
-        font-size: 36px;
+        height: 51px;
+        width: 214px;
+        font-size: 28px;
     }
     .banner img{
         width: 700px;
     position: relative;
-    left: -100px;
+    left: -160px;
     }
     .banner-content{
         display: inline-block;
@@ -748,16 +753,17 @@ background: #9abee2;
     }
     .banner-content h1{
         position: relative;
-       right: 175px;
+       right: 260px;
     }
     .banner-content p{
         position: relative;
         top: 25px;
-        font-size: 40px;
+        font-size: 25px;
+        right: 100px;
     }
     .banner-content a{
         position: relative;
-        right: 200px;
+        right: 330px;
         top: 50px;
         display: inline-block;
         width: 195px;
@@ -767,13 +773,13 @@ background: #9abee2;
     .banner-content i{
         font-size: 40px;
         position: relative;
-        left: -160px;
+        left: -280px;
         top: 50px;
     }
     .banner-content span{
         font-size: 39px;
         position: relative;
-        left: 118px;
+        left: 1px;
         display: inline-block;
         top: 2;
     }
@@ -786,7 +792,7 @@ background: #9abee2;
         height: 350px;
         padding: 77px;
         position: relative;
-        left: 105px;
+        left: -30px;
     }
     .services-features i{
         font-size: 90px;
@@ -800,26 +806,26 @@ background: #9abee2;
     #features h1{
         display: inline-block;
         position: relative;
-        left: -100px;
+        left: -160px;
     }
     .features-para{
         display: block;
-        width: 985px;
-        font-size: 33px;
+        width: 831px;
+        font-size: 25px;
         position: relative;
-        left: -484px;
+        left: -491px;
     }
     .features{
         display: block;
     }
     .features-img{
-        margin-left: 650px;
+        margin-left: 440px;
     width: 600px;
     height: 400;
     }
     .features-items-details{
         position: relative;
-        left: 307px;
+        left: 210px;
        
     }
     .features-items-details i{
@@ -837,17 +843,19 @@ background: #9abee2;
     }
     .team-title h1{ 
         position: relative;
-        left: -100px;
+        left: -220px;
     }
     .team-title p{
         display: block;
-        width: 753px;
+    width: 602px;
+    position: relative;
+    left: -120px;
     }
     .team{
          display: block;
     }
     .team-items-div img{
-        margin-left: 700px;
+        margin-left: 400px;
         height: 521px;
         width: 550px;
     }
@@ -855,7 +863,7 @@ background: #9abee2;
         position: relative;
         width: 457px;
         height: 120px;
-        left: 280px;
+        left: 125px;
     }
     .team-h4{
      font-size: 40px;
@@ -868,14 +876,14 @@ background: #9abee2;
     }
     .contact-title h1{
         position: relative;
-    right: 40px;
+    right: 160px;
     }
     .contact-container{
      display: block;
     }
     .contact{
     position: relative;
-    left: 46px;
+    left: -40px;
     width: 798px;
     }
     .contact-ours{
@@ -884,20 +892,28 @@ background: #9abee2;
     .contact-yours{
         display: inline-block;
         position: relative;
-        left: 116px;
+        left: 15px;
     }
     .details{
         display: block;
-        width: 964px;
+        width: 845px;
         height: 913px;
     }
    
     .copyright{
         display: block;
-        width: 864px;
+        width: 745px;
         height: 130px;
     }
-  
+    .copyright-social-media{
+        position: relative;
+        right: 80px;
+        display: inline-block;
+        width: 255px;
+    }
+  body{
+    overflow-y: unset; 
+  }
 }
 
 
